@@ -1,0 +1,202 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "INDOCOREHATER HUB(RAIDSCRIPT)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+OrionLib:MakeNotification({
+    Name = "Hello welcome",
+    Content = "Made By ExploitEdge",
+    Image = "rbxassetid://4483345998",
+    Time = 10
+})
+local Tab = Window:MakeTab({
+	Name = "Brookhaven",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+Tab:AddLabel("Shout Out To EdgeExploit For Making This Hub And This Script")
+Tab:AddButton({
+	Name = "Board Changer(Use The Board Before Clicking This Script)",
+	Callback = function()
+      		---Made By XploitEdge
+---Board Changer
+---Update 2
+---The Wait is Long Because To avoid Tags And Also The Text Changed
+---Execute The Script When The Board Item Used
+while true do
+    wait(4)
+    local args = {
+        [1] = "Sign",
+        [2] = "SignWords",
+        [3] = "AFZ,INDOCORE,ODER"
+    }
+    game:GetService("Players").LocalPlayer.Character.Sign.ToolSound:FireServer(unpack(args))
+
+    wait(4)
+    local args = {
+        [1] = "Sign",
+        [2] = "SignWords",
+        [3] = "IS Very Very SUCK And STÙPD"
+    }
+    game:GetService("Players").LocalPlayer.Character.Sign.ToolSound:FireServer(unpack(args))
+
+    wait(4)
+    local args = {
+        [1] = "Sign",
+        [2] = "SignWords",
+        [3] = "GETAFATHER#GETBETTERLIFEKID"
+    }
+    game:GetService("Players").LocalPlayer.Character.Sign.ToolSound:FireServer(unpack(args))
+
+    wait(4)
+    local args = {
+        [1] = "Sign",
+        [2] = "SignWords",
+        [3] = "Idc What You Say But Y R So Embarrassing"
+    }
+    game:GetService("Players").LocalPlayer.Character.Sign.ToolSound:FireServer(unpack(args))
+end
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Name And Bio Changer",
+	Callback = function()
+      		---Made By XploitEdge
+---Change Name And Bio
+---The Wait in script is long because avoid Tags
+while true do
+    wait(0.5)
+local args = {
+    [1] = "PickingRPNameColor",
+    [2] = Color3.new(0.7827701568603516, 0, 1)
+}
+
+   game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eColo1r"):FireServer(unpack(args))
+      wait(0.5)
+local args = {
+    [1] = "PickingRPBioColor",
+    [2] = Color3.new(0.7827701568603516, 0, 1)
+}
+
+   game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eColo1r"):FireServer(unpack(args))
+    wait(4)
+    local args = {
+        [1] = "RolePlayName",
+        [2] = "AFZ,INDOCORE,ODER"
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+    wait(4)
+    local args = {
+        [1] = "RolePlayBio",
+        [2] = "IS Very Very SUCK And ST4D"
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+    wait(4)
+    local args = {
+        [1] = "RolePlayName",
+        [2] = "GETAFATHER#GETBETTERLIFEKID"
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+    wait(4)
+    local args = {
+        [1] = "RolePlayBio",
+        [2] = "Idc What You Say But Y R So Embarrassing"
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+end
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "OTHER HUB"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "R4D GUI",
+	Callback = function()
+      		--Brookhaven R4D 
+--By M1zz
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "JUL HUB",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "REDZ HUB",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+Tab:AddButton({
+	Name = "IMPERIAL HUB",
+	Callback = function()      		
+              loadstring(game:HttpGet(("https://raw.githubusercontent.com/Trev0rZ/LoaderM/main/ImperialHub-Working.lua"),true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Trevor4 Hub",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Trev0rZ/Loader/main/Trevo4Hub%20Working.lua'),true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Salzar Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/err0r129/SalazarHubByTeamOsiris/main/Hades.lua'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
