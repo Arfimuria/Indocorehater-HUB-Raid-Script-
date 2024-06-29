@@ -1,135 +1,49 @@
+-- Moveable Work At Moblie/PC 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "INDOCOREHATER HUB(RAIDSCRIPT)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "INDOCOREHATER HUB(RaidScript)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
-    Name = "Hello welcome",
-    Content = "Made By ExploitEdge",
-    Image = "rbxassetid://4483345998",
-    Time = 10
+	Name = "Hello",
+	Content = "Made By ExploitEdge",
+	Image = "rbxassetid://4483345998",
+	Time = 5
 })
 local Tab = Window:MakeTab({
 	Name = "Brookhaven",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-
---[[
-Name = <string> - The name of the tab.
-Icon = <string> - The icon of the tab.
-PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
-]]
-Tab:AddLabel("Shout Out To EdgeExploit For Making This Hub And This Script")
+Tab:AddLabel("Shout Out To ExploitEdge For Making This Script and Hub")
+local Section = Tab:AddSection({
+	Name = "Something"
+})
 Tab:AddButton({
-	Name = "Board Changer(Use The Board Before Clicking This Script)",
+	Name = "Board Changer",
 	Callback = function()
-      		---Made By XploitEdge
----Board Changer
----Update 2
----The Wait is Long Because To avoid Tags And Also The Text Changed
----Execute The Script When The Board Item Used
-while true do
-    wait(4)
-    local args = {
-        [1] = "Sign",
-        [2] = "SignWords",
-        [3] = "AFZ,INDOCORE,ODER"
-    }
-    game:GetService("Players").LocalPlayer.Character.Sign.ToolSound:FireServer(unpack(args))
-
-    wait(4)
-    local args = {
-        [1] = "Sign",
-        [2] = "SignWords",
-        [3] = "IS Very Very SUCK And STÙPD"
-    }
-    game:GetService("Players").LocalPlayer.Character.Sign.ToolSound:FireServer(unpack(args))
-
-    wait(4)
-    local args = {
-        [1] = "Sign",
-        [2] = "SignWords",
-        [3] = "GETAFATHER#GETBETTERLIFEKID"
-    }
-    game:GetService("Players").LocalPlayer.Character.Sign.ToolSound:FireServer(unpack(args))
-
-    wait(4)
-    local args = {
-        [1] = "Sign",
-        [2] = "SignWords",
-        [3] = "Idc What You Say But Y R So Embarrassing"
-    }
-    game:GetService("Players").LocalPlayer.Character.Sign.ToolSound:FireServer(unpack(args))
-end
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Arfimuria/Board-Changer-for-raid-Brookhaven-/main/Board%20changer%20Brookhaven%20for%20raid"))()
   	end    
 })
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
 Tab:AddButton({
 	Name = "Name And Bio Changer",
 	Callback = function()
-      		---Made By XploitEdge
----Change Name And Bio
----The Wait in script is long because avoid Tags
-while true do
-    wait(0.5)
-local args = {
-    [1] = "PickingRPNameColor",
-    [2] = Color3.new(0.7827701568603516, 0, 1)
-}
-
-   game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eColo1r"):FireServer(unpack(args))
-      wait(0.5)
-local args = {
-    [1] = "PickingRPBioColor",
-    [2] = Color3.new(0.7827701568603516, 0, 1)
-}
-
-   game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eColo1r"):FireServer(unpack(args))
-    wait(4)
-    local args = {
-        [1] = "RolePlayName",
-        [2] = "AFZ,INDOCORE,ODER"
-    }
-
-    game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
-    wait(4)
-    local args = {
-        [1] = "RolePlayBio",
-        [2] = "IS Very Very SUCK And ST4D"
-    }
-
-    game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
-    wait(4)
-    local args = {
-        [1] = "RolePlayName",
-        [2] = "GETAFATHER#GETBETTERLIFEKID"
-    }
-
-    game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
-    wait(4)
-    local args = {
-        [1] = "RolePlayBio",
-        [2] = "Idc What You Say But Y R So Embarrassing"
-    }
-
-    game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
-end
+      		Loadstring(game:HttpGet("https://raw.githubusercontent.com/Arfimuria/Brookhaven-Change-name-and-bio/main/Name%20and%20bio%20changer"))()
   	end    
 })
 
 --[[
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the section.
 ]]
 local Section = Tab:AddSection({
 	Name = "OTHER HUB"
 })
 
---[[
-Name = <string> - The name of the section.
-]]
 Tab:AddButton({
 	Name = "R4D GUI",
 	Callback = function()
